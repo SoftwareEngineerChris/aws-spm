@@ -1,3 +1,0 @@
-[submodule "aws-sdk-ios"]
-	path = aws-sdk-ios
-	url = git@github.com:SoftwareEngineerChris/aws-sdk-ios.git
