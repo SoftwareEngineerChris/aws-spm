@@ -1,0 +1,1 @@
+../STS/AWSSTSService.h

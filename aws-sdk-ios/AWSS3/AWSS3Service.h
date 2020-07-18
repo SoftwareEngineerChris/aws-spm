@@ -13,8 +13,8 @@
 // permissions and limitations under the License.
 //
 
-#import <Foundation/Foundation.h>
-#import <AWSCore/AWSCore.h>
+@import Foundation;
+@import AWSCore;
 #import "AWSS3Model.h"
 #import "AWSS3Resources.h"
 

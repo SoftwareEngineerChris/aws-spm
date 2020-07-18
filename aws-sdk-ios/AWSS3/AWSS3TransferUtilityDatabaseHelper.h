@@ -13,6 +13,7 @@
 // permissions and limitations under the License.
 //
 
+@import Foundation;
 
 @interface AWSS3TransferUtilityDatabaseHelper:NSObject
 

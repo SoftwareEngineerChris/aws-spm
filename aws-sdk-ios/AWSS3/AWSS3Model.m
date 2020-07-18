@@ -13,8 +13,8 @@
 // permissions and limitations under the License.
 //
 
+@import AWSCore;
 #import "AWSS3Model.h"
-#import <AWSCore/AWSCategory.h>
 
 NSString *const AWSS3ErrorDomain = @"com.amazonaws.AWSS3ErrorDomain";
 

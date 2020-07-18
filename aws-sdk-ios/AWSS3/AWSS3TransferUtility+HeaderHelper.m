@@ -15,6 +15,7 @@
 
 #import "AWSS3TransferUtility+HeaderHelper.h"
 #import "AWSS3TransferUtilityTasks.h"
+#import "AWSS3.h"
 
 @interface AWSS3CreateMultipartUploadRequest()
 + (NSValueTransformer *)ACLJSONTransformer;

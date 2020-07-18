@@ -13,8 +13,8 @@
 // permissions and limitations under the License.
 //
 
+@import AWSCore;
 #import "AWSS3RequestRetryHandler.h"
-#import <AWSCore/AWSService.h>
 
 @implementation AWSS3RequestRetryHandler
 

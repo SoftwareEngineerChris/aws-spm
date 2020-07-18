@@ -13,16 +13,8 @@
 // permissions and limitations under the License.
 //
 
+@import AWSCore;
 #import "AWSS3Service.h"
-#import <AWSCore/AWSNetworking.h>
-#import <AWSCore/AWSCategory.h>
-#import <AWSCore/AWSNetworking.h>
-#import <AWSCore/AWSSignature.h>
-#import <AWSCore/AWSService.h>
-#import <AWSCore/AWSURLRequestSerialization.h>
-#import <AWSCore/AWSURLResponseSerialization.h>
-#import <AWSCore/AWSURLRequestRetryHandler.h>
-#import <AWSCore/AWSSynchronizedMutableDictionary.h>
 #import "AWSS3Resources.h"
 #import "AWSS3RequestRetryHandler.h"
 #import "AWSS3Serializer.h"

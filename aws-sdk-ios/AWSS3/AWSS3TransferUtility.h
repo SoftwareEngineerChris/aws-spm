@@ -13,8 +13,8 @@
 // permissions and limitations under the License.
 //
 
+@import AWSCore;
 #import <UIKit/UIKit.h>
-#import <AWSCore/AWSCore.h>
 #import "AWSS3Service.h"
 #import "AWSS3TransferUtilityTasks.h"
 

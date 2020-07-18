@@ -13,8 +13,8 @@
 // permissions and limitations under the License.
 //
 
+@import AWSCore;
 #import <Foundation/Foundation.h>
-#import <AWSCore/AWSCore.h>
 
 @interface AWSS3RequestSerializer : NSObject <AWSURLRequestSerializer>
 

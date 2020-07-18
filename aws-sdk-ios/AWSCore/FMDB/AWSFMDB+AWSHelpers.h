@@ -13,7 +13,6 @@
 // permissions and limitations under the License.
 //
 
-#import <AWSCore/AWSCore.h>
 #import "AWSFMDatabasePool.h"
 #import "AWSFMDatabaseQueue.h"
 

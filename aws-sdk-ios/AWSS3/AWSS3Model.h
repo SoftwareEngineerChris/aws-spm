@@ -13,9 +13,8 @@
 // permissions and limitations under the License.
 //
 
-#import <Foundation/Foundation.h>
-#import <AWSCore/AWSNetworking.h>
-#import <AWSCore/AWSModel.h>
+@import Foundation;
+@import AWSCore;
 
 NS_ASSUME_NONNULL_BEGIN
 

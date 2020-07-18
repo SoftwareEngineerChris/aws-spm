@@ -13,8 +13,8 @@
 // permissions and limitations under the License.
 //
 
+@import AWSCore;
 #import "AWSS3Resources.h"
-#import <AWSCore/AWSCocoaLumberjack.h>
 
 @interface AWSS3Resources ()
 
