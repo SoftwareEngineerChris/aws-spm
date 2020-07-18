@@ -259,6 +259,20 @@ static NSString *const AWSRegionNameMESouth1 = @"me-south-1";
 static NSString *const AWSRegionNameAFSouth1 = @"af-south-1";
 static NSString *const AWSRegionNameEUSouth1 = @"eu-south-1";
 
+// MARK: DigitialOcean region names
+static NSString *const DORegionNameNYC1 = @"nyc1";
+static NSString *const DORegionNameNYC2 = @"nyc2";
+static NSString *const DORegionNameNYC3 = @"nyc3";
+static NSString *const DORegionNameAMS2 = @"ams2";
+static NSString *const DORegionNameAMS3 = @"ams3";
+static NSString *const DORegionNameSFO1 = @"sfo1";
+static NSString *const DORegionNameSFO2 = @"sfo2";
+static NSString *const DORegionNameSFO3 = @"sfo3";
+static NSString *const DORegionNameLON1 = @"lon1";
+static NSString *const DORegionNameFRA1 = @"fra1";
+static NSString *const DORegionNameTOR1 = @"tor1";
+static NSString *const DORegionNameBLR1 = @"blr1";
+
 static NSString *const AWSServiceNameAPIGateway = @"execute-api";
 static NSString *const AWSServiceNameAutoScaling = @"autoscaling";
 static NSString *const AWSServiceNameCloudWatch = @"monitoring";
@@ -479,7 +493,35 @@ static NSString *const AWSServiceNameTranslate = @"translate";
             return AWSRegionNameAFSouth1;
         case AWSRegionEUSouth1:
             return AWSRegionNameEUSouth1;
-        default:
+        
+        // MARK: DigitalOcean region cases
+        case DORegionNYC1:
+            return DORegionNameNYC1;
+        case DORegionNYC2:
+            return DORegionNameNYC2;
+        case DORegionNYC3:
+            return DORegionNameNYC3;
+        case DORegionAMS2:
+            return DORegionNameAMS2;
+        case DORegionAMS3:
+            return DORegionNameAMS3;
+        case DORegionSFO1:
+            return DORegionNameSFO1;
+        case DORegionSFO2:
+            return DORegionNameSFO2;
+        case DORegionSFO3:
+            return DORegionNameSFO3;
+        case DORegionLON1:
+            return DORegionNameLON1;
+        case DORegionFRA1:
+            return DORegionNameFRA1;
+        case DORegionTOR1:
+            return DORegionNameTOR1;
+        case DORegionBLR1:
+            return DORegionNameBLR1;
+            
+        // The unknown case
+        case AWSRegionUnknown:
             return nil;
     }
 }

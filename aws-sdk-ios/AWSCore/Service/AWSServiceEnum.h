@@ -123,6 +123,33 @@ typedef NS_ENUM(NSInteger, AWSRegionType) {
      *  Europe (Milan)
      */
     AWSRegionEUSouth1 NS_SWIFT_NAME(EUSouth1),
+    
+    // MARK: DigitalOcean Regions
+    /**
+     * Datacenter Regions
+     * DigitalOcean's datacenters are in the following locations:
+     *
+     * NYC1, NYC2, NYC3: New York City, United States
+     * AMS2, AMS3: Amsterdam, the Netherlands
+     * SFO1, SFO2, SFO3: San Francisco, United States
+     * SGP1: Singapore
+     * LON1: London, United Kingdom
+     * FRA1: Frankfurt, Germany
+     * TOR1: Toronto, Canada
+     * BLR1: Bangalore, India
+     */
+    DORegionNYC1,
+    DORegionNYC2,
+    DORegionNYC3,
+    DORegionAMS2,
+    DORegionAMS3,
+    DORegionSFO1,
+    DORegionSFO2,
+    DORegionSFO3,
+    DORegionLON1,
+    DORegionFRA1,
+    DORegionTOR1,
+    DORegionBLR1
 };
 
 /**
